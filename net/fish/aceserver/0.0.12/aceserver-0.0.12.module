@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fish",
+    "module": "aceserver",
+    "version": "0.0.12",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aceserver-0.0.12.jar",
+          "url": "aceserver-0.0.12.jar",
+          "size": 2549151,
+          "sha512": "e8fbf7af6dfabd99c5b24e645c6d5cb34c775f39f90a404871d2a0e27c5c24c943f4578df140fdf4b7932bafe9a7dde5d3a920e1ec4c6a83de7406b6cca1337c",
+          "sha256": "4caa1d1a1e6f0823d26b99d744290d58cff80b3f0ce1a59a17e59321d1042643",
+          "sha1": "c625d099fb1839b097514ad1ab3b5f72fffd8744",
+          "md5": "40f6301dc23d1ce5d1848802fa0d8531"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aceserver-0.0.12.jar",
+          "url": "aceserver-0.0.12.jar",
+          "size": 2549151,
+          "sha512": "e8fbf7af6dfabd99c5b24e645c6d5cb34c775f39f90a404871d2a0e27c5c24c943f4578df140fdf4b7932bafe9a7dde5d3a920e1ec4c6a83de7406b6cca1337c",
+          "sha256": "4caa1d1a1e6f0823d26b99d744290d58cff80b3f0ce1a59a17e59321d1042643",
+          "sha1": "c625d099fb1839b097514ad1ab3b5f72fffd8744",
+          "md5": "40f6301dc23d1ce5d1848802fa0d8531"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "aceserver-0.0.12-sources.jar",
+          "url": "aceserver-0.0.12-sources.jar",
+          "size": 2544978,
+          "sha512": "41f649135fed474f9beb616aafdb96f23abe487cf21e342656f23008ccf27dad6d41f804272f9b03509f52308d7caf7448e1961267e2b3e2b785826ac70c5bc9",
+          "sha256": "6882f00125513f5d50058b21a62338b6780cb03e2e7aa19e96056bc4ac259497",
+          "sha1": "12ffb9c3eefe01bef10b2bec39ca907a82c65b17",
+          "md5": "b83360aca02dba98973e4f5a28be399c"
+        }
+      ]
+    }
+  ]
+}
