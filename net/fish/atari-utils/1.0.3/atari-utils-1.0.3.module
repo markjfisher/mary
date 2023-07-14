@@ -1,0 +1,157 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fish",
+    "module": "atari-utils",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atari-utils-1.0.3.jar",
+          "url": "atari-utils-1.0.3.jar",
+          "size": 67226,
+          "sha512": "3b51d8ba6d9fe39744f63e80b03f1a085337f30e1d3284c222a9800bfd2f288727339d61e6eb6112e88b384165124d0c90a27b8ddcd75e607b3b4ef00262d492",
+          "sha256": "d72a16305a1384e5283a07231c6d312f5eb9293360bd93c8b5002b165cbd3959",
+          "sha1": "a464748f65b4506fb7ebb1e4d2eb92cd1e5cd03e",
+          "md5": "fed9d43d554e1d79d8d5538c835d5684"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.7.4"
+          }
+        },
+        {
+          "group": "jakarta.inject",
+          "module": "jakarta.inject-api",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atari-utils-1.0.3.jar",
+          "url": "atari-utils-1.0.3.jar",
+          "size": 67226,
+          "sha512": "3b51d8ba6d9fe39744f63e80b03f1a085337f30e1d3284c222a9800bfd2f288727339d61e6eb6112e88b384165124d0c90a27b8ddcd75e607b3b4ef00262d492",
+          "sha256": "d72a16305a1384e5283a07231c6d312f5eb9293360bd93c8b5002b165cbd3959",
+          "sha1": "a464748f65b4506fb7ebb1e4d2eb92cd1e5cd03e",
+          "md5": "fed9d43d554e1d79d8d5538c835d5684"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atari-utils-1.0.3-all.jar",
+          "url": "atari-utils-1.0.3-all.jar",
+          "size": 3346513,
+          "sha512": "5e874433913c3a54f6f4e88852ae25f9fc69ef652b0ab1ab85ed7109d418609f464db04ce33e73d86891bdc0999213b0a62b152f0fb3a4959c73d78f7bab5c1a",
+          "sha256": "2bb55ed69942fdf89627c73d67243e231022e52d475bf05e1c2d78723d4fc7d7",
+          "sha1": "fcf1c94239d3f37abb7da0c213ae54ab182fe109",
+          "md5": "ca2549e43c2e0521409f8191f76e54fe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atari-utils-1.0.3-sources.jar",
+          "url": "atari-utils-1.0.3-sources.jar",
+          "size": 12914,
+          "sha512": "d01ba5e333adefd70f4a6ec026fda4f71b51a9c6952759b45302de9537351516b308928034d22067a341db71a79018a0e2ff16c82ce3e4493179434216951aca",
+          "sha256": "d4f3c91ffcda41b809ec72161eb0b4bce19fa287d34a333945beb0141287e849",
+          "sha1": "a11a6abc5f26ab7f61b3a58f88d42952fbcacb58",
+          "md5": "d3bdefb38c4d01c097ce21d01eb8bc42"
+        }
+      ]
+    }
+  ]
+}
