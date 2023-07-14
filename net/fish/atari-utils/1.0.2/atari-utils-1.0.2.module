@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.fish",
+    "module": "atari-utils",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atari-utils-1.0.2.jar",
+          "url": "atari-utils-1.0.2.jar",
+          "size": 67226,
+          "sha512": "088b9fe50cb20b738573621bda8b03f4a08a18cc0dce0b98060b3f91463b4481e2342d06f108d428ee4aaf0e0250e2acf639058b0338389a137124e839f11414",
+          "sha256": "e62e0576f3dcdc368322827438a05beffdd006378ea883166910402dea0e4651",
+          "sha1": "ed0038d0d43c94d5f098c2a700d3b944f742e424",
+          "md5": "7615dacf1decf9e5ffc66ab9e9913be2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "info.picocli",
+          "module": "picocli",
+          "version": {
+            "requires": "4.7.4"
+          }
+        },
+        {
+          "group": "jakarta.inject",
+          "module": "jakarta.inject-api",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "io.github.microutils",
+          "module": "kotlin-logging",
+          "version": {
+            "requires": "3.0.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "2.0.7"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.4.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "atari-utils-1.0.2.jar",
+          "url": "atari-utils-1.0.2.jar",
+          "size": 67226,
+          "sha512": "088b9fe50cb20b738573621bda8b03f4a08a18cc0dce0b98060b3f91463b4481e2342d06f108d428ee4aaf0e0250e2acf639058b0338389a137124e839f11414",
+          "sha256": "e62e0576f3dcdc368322827438a05beffdd006378ea883166910402dea0e4651",
+          "sha1": "ed0038d0d43c94d5f098c2a700d3b944f742e424",
+          "md5": "7615dacf1decf9e5ffc66ab9e9913be2"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "atari-utils-1.0.2-all.jar",
+          "url": "atari-utils-1.0.2-all.jar",
+          "size": 3346513,
+          "sha512": "d4b70e1f5f47caa492d8436fea0a637bdc730cbe0b9143c26246d28541a6c5c9245191edba6a7526432f8c124a78275f406b6916349950e8f0ed0a9493b787a5",
+          "sha256": "75aecc254a9523543f9fb8d1f452e143bea2e007d70f1dfe93b8a65e7e8c2997",
+          "sha1": "f492e6db3374c831a7fbce8f2a14c9fa5189550e",
+          "md5": "606936a16bbe59f908ee18c0d390ce79"
+        }
+      ]
+    }
+  ]
+}
